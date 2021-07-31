@@ -53,7 +53,7 @@ h1, h2, p, button {
    height: 100%;
    padding: .5rem;
    display: grid;
-   grid-template-rows: 6% 20% 4% 20% 20% 4% 20% 6%;
+   grid-template-rows: 6% 21% 3% 20% 20% 3% 21% 6%;
  }
  .main button {
    padding: .15rem;
@@ -68,10 +68,29 @@ h1, h2, p, button {
  /* The scroll container divs.--------------------------- */
  .scrollContainer {
   border: .15rem solid black;
+  background-color: white;
+  position: relative;
+  z-index: 2;
  }
  /* The arrow container divs.--------------------------- */
  .arrowContainer {
-   border: .15rem solid black;
+   display: flex;
+   justify-content: center;
+ }
+ .arrow {
+   height: 35px;
+   width: 35px;
+   background-color: black;
+ }
+ .down {
+   position: relative;
+   top: -141%;
+   transform: rotate(45deg);
+ }
+ .up {
+   position: relative;
+   top: 39%;
+   transform: rotate(45deg);
  }
  /* The colour box divs.--------------------------------- */
  .colourBox {
@@ -82,9 +101,9 @@ h1, h2, p, button {
    html { font-size: 12px; }
  }
  @media screen and (max-width: 450px){
-   html { font-size: 8px; }
+   html { font-size: 9px; }
    button { font-size: 2rem; }
  }
- @media screen and (max-width: 550px){
+ @media screen and (max-width: 560px){
    body { width: 100%; }
  }
