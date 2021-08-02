@@ -83,6 +83,9 @@ h1, h2, p, button {
    justify-content: center;
    align-items: center;
  }
+ .scrollItemDiv:hover {
+   cursor: pointer;
+ }
  .scrollItemPara {
    min-width: 40%;
    height: 1.6rem;
