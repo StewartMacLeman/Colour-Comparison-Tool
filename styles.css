@@ -24,7 +24,7 @@ p { font-size: 1.5rem; }
 button { font-size: 1.25rem; }
 
 h1, h2, p, button {
-  font-family: tahoma, helvetica, serif;
+  font-family: tahoma, helvetica, sans-serif;
   text-align: center;
   margin: 0 auto;
   padding: .25rem;
