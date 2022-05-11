@@ -2,7 +2,7 @@
 
 This tool is for helping people to select colours when building web-applications.
 
-## Build with:
+## Built with:
 * JavaScript
 * CSS
 * HTML
